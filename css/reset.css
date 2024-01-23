@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Futura";
+  src: url("../fonts/futuralightc.ttf");
+}
+@font-face {
+  font-family: "FuturaFuturisC";
+  src: url("../fonts/Futurafuturisc.otf");
+}
+@font-face {
+  font-family: "FuturaDemic";
+  src: url("../fonts/Futurademic.otf");
+}
+@font-face {
+  font-family: "FuturaBookC";
+  src: url("../fonts/futurabookc.ttf");
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: "FuturaFuturisC";
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: Inter, Roboto, sans-serif;
+  border: none;
+  background: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.icon {
+  width: 12px;
+  height: 12px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+          appearance: textfield;
+}/*# sourceMappingURL=reset.css.map */

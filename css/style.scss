@@ -1,0 +1,109 @@
+@import './reset.scss';
+
+header {
+    max-width: 1920px;
+    width: 100%;
+    background: #07086C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+
+    .header__container {
+        max-width: 1281px;
+        width: 100%;
+        padding-top: 56px;
+
+        .header__top-line {
+            min-height: 33px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+
+            .header__company {
+                max-width: 155px;
+                width: 100px;
+                height: 28px;
+                background: url('../img/company-name.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
+            .header__menu {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-family: "Futura";
+                font-size: 18px;
+                max-width: 801px;
+                width: 100%;
+            }
+
+            .header__phone {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                
+                img{
+                    width: 33px;
+                    height: 33px;
+                }
+
+                font-weight: 18px;
+
+                span:last-child {
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .header__bottom-line {
+            display: flex;
+            justify-content: space-between;
+
+            .header__bottom-left {
+
+                .header__bottom-left-title1{
+                    
+                    p{
+                    font-weight: 700;
+                    font-size: 69px;
+                    line-height: 69px;
+                    text-transform: uppercase;
+                    }
+
+
+                    :nth-child(2){
+                        color: #969AF7;
+                        font-weight: 600;
+                        font-size: 56px;
+                        line-height: 56px;
+                    }
+
+                    :nth-child(3){
+                        font-weight: 600;
+                        font-size: 61px;
+                        line-height: 61px;
+                    }
+                }
+                .header__bottom-left-title2{
+                    font-family: "FuturaBookC";
+                    font-size: 23px;
+                    color: #969AF7;
+;
+                }
+            }
+
+            .header__bottom-right {
+                max-width: 380px;
+                width: 100%;
+                min-height: 473px;
+                background: #6A32B4;
+            }
+        }
+    }
+}
